@@ -58,7 +58,7 @@ function chatStripe(isAi, value, uniqueId) {
     `;
 }
 
-const handleSubmit = async(e) => {
+const handleSubmit = async() => {
     const data = new FormData(form);
 
     //User's chat stripe
@@ -108,11 +108,14 @@ const handleSubmit = async(e) => {
 
         alert(err);
     }
-
-    e.preventDefault();
 };
 
-form.addEventListener('submit', handleSubmit);
+form.addEventListener('submit', (e) => {
+    handleSubmit();
+    e.preventDefault();
+});
 form.addEventListener('keyup', (e) => {
     if (e.keyCode === 13) handleSubmit(e);
+
+    e.preventDefault();
 });
