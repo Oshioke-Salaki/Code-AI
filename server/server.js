@@ -44,4 +44,4 @@ app.post('/', async(req, res) => {
     }
 });
 
-app.listen(5000, () => console.log(process.env.OPENAI_API_KEY));
+app.listen(5000, () => console.log('Hey server running on port 5000'));
