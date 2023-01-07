@@ -10,6 +10,12 @@ body {
     background: #343541;
 }
 
+h4 {
+    color: white;
+    text-align: left !important;
+    margin-top: 15px;
+}
+
 #app {
     width: 100vw;
     height: 100vh;
