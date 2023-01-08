@@ -6,7 +6,7 @@ Code AI is a program that answers users questions using Artificial Intelligence(
 
 The user types in a question which is sent through OPENAI's API. Once there is a response, it is rendered on the user Interface using a typing effect for user experience. It is meant to solve simple to complex programming questions. Depending on the complexity of the question, it would take some time to get the answers. Apart from programming questions, it can also answer any question you throw at it. Just like google I guess. Thats it for how it works.
 
-This is the first rollout. Im looking to find ways i can improve this and create future projects using OPENAI's technology.
+This is the first rollout. Im looking to find ways i can improve this and create future projects using OPENAI's technology. You can also comment on how i can make it better.
 
 # Smaple Questions to ask
 
